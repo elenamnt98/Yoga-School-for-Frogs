@@ -3,12 +3,46 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Adding CSS</title>
+  <title>Yoga School for Frogs</title>
+  <style>
+    body {background-color: #7DDB2A; font-family: sans-serif;}
+    input { background-color: #A9D9B7; border: none; border-radius: 5px;}
+    #button {background-color: #62D9D7; margin-top: 10px; padding: 5px; justify-items: center; }
+    div {margin: 15px;}
+    form {height: 100vh; justify-items: center; align-content: center;}
+    h1 {text-align: center; font-family: sans-serif;}
+
+    
+  </style>
 </head>
 
 <body>
-  <h1>Three Methods of Adding CSS</h1>
-  <!-- Create 3 Links to The 3 Webpages: inline, internal and external -->
+  <h1>Sign up for free</h1>
+  <form action="" method="get" class="vatraxia">
+    <div>
+      <label for="name">Plese enter your name</label>
+      <input type="text" class="flex" name="name" required/>
+    </div>
+    <div>
+      <label for="age">Please enter your age</label>
+      <input type="text" class="flex" name="age" required/>
+    </div>
+    <div>
+      <label for="flexibility">Please enter your flexibility range</label>
+      <input type="text" class="flex" name="flexibility" required/>
+    </div>
+    <div>
+      <label for="skin">Please enter your skin color</label>
+      <input type="text" class="flex" name="skin" required/>
+    </div>
+    <div>
+      <label for="checkbox">Can I stand for more than 5 (five) mins on a water lily?</label>
+      <input type="checkbox" name="checkbox"/>
+    </div>
+    <div>
+      <input type="submit" id="button" value="Sing up" required/>
+    </div>
+  </form>
 </body>
 
 </html>
